@@ -1,0 +1,7 @@
+*.
+*.zip
+!.gitignore
+
+node_modules/
+src/style.css
+dist/
