@@ -1,0 +1,79 @@
+
+/**
+ * App
+ */
+
+color_gray_dark  = #95a5a6
+color_gray_light = #ecf0f1
+color_blue       = #3498db
+color_purple     = #9b59b6
+color_orange     = #e67e22
+color_red        = #e74c3c
+color_green      = #2ecc71
+
+size_border = 4px
+
+.wpnf {
+  margin 1em
+  background-color color_gray_light
+
+  > .body {
+    padding .5em 1em
+    text-align left
+
+    > [class^="wpnf-icon-"], > [class*=" wpnf-icon-"] {
+      vertical-align middle
+      display table-cell
+      font-size 2em
+      width 1em
+      text-align center
+    }
+
+    > .text {
+      display table-cell
+      padding-left 1em
+      letter-spacing .05em
+      line-height 1.5em
+    }
+  }
+
+  > .note {
+    border-left solid size_border color_blue
+
+    > [class^="wpnf-icon-"], > [class*=" wpnf-icon-"] {
+      color color_blue
+    }
+  }
+
+  > .important {
+    border-left solid size_border color_purple
+
+    > [class^="wpnf-icon-"], > [class*=" wpnf-icon-"] {
+      color color_purple
+    }
+  }
+
+  > .tip {
+    border-left solid size_border color_green
+
+    > [class^="wpnf-icon-"], > [class*=" wpnf-icon-"] {
+      color color_green
+    }
+  }
+
+  > .warning {
+    border-left solid size_border color_red
+
+    > [class^="wpnf-icon-"], > [class*=" wpnf-icon-"] {
+      color color_red
+    }
+  }
+
+  > .help {
+    border-left solid size_border color_orange
+
+    > [class^="wpnf-icon-"], > [class*=" wpnf-icon-"] {
+      color color_orange
+    }
+  }
+}
