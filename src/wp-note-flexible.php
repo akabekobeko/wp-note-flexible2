@@ -3,7 +3,7 @@
 Plugin Name: WP-Note Flexible2
 Plugin URI: https://github.com/akabekobeko/wp-note-flexible2
 Description: Make nice notes with WP-Note Flexible in your post. This plug-in is based on the WP-Note ( http://wordpress.org/plugins/wp-note/ ).
-Version: 1.0.0
+Version: 1.0.1
 Author: akabeko
 Author URI: http://akabeko.me/
 */
@@ -30,7 +30,7 @@ Author URI: http://akabeko.me/
  */
 class WpNoteFlexible2 {
     /** Plugin version. */
-    const VERSION = '1.0.0';
+    const VERSION = '1.0.1';
 
     /**
      * Initialize an instance.
